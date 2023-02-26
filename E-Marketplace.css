@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+
+#head{
+    background-color: rgb(54, 182, 54);
+    height: 80px;
+}
+#head .logo h1{
+    color:white;
+    line-height: 80px;  
+}
+#head .logo :hover{
+    text-decoration: none;
+}
+#head .flex{
+    display: flex;
+}
+#head .recherche{
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#head .recherche input{
+    flex: 1;
+    width: 600px;    
+}   
+
+/* javascript */
+#head .suggestion:hover{   
+    background-color: cornflowerblue; 
+}
+
+
+#head .recherche button{
+    background-color: #181918;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#head .mini-nav{
+    margin-right: 25px;
+}
+#head .mini-nav i{
+    color: white;
+    font-size: 35px;    
+    line-height: 80px;   
+}
+
+
+
+#nav{
+    margin-top: 20px;
+}
+#nav ul{
+    text-align: center;
+    list-style: none;
+}
+#nav ul li.Catégories{   
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+#Top-annonces{
+    margin-left: 200px;
+}
+
+
+
+#home{
+    width: 80%;
+    margin: auto;
+    border: solid 2px;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+}
+#home .carousel-item img {
+    max-height: 400px; /* ajuster la hauteur maximale selon vos préférences */   
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    margin-top: 150px;
+}
+footer .footerEnNoir{
+    display: flex;
+}
+footer .tailleBlocFooter{
+    margin-left: 12%;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+
+footer .blocServicesFooter{
+    display: inline-block;    
+    margin-left: 10%;    
+    margin-top: 35px;
+}
+.blocServicesFooter img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.liste li {
+  position: relative;
+  list-style: none;
+}
+.liste .text {
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 2px;
+  background-color: #fff;
+  color: #000; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.liste li:hover .text {
+  display: block;
+}
+
+

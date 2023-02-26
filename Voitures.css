@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
+
+#head{
+    background-color: rgb(54, 182, 54);
+    height: 80px;
+}
+#head .logo h1{
+    color:white;
+    line-height: 80px;
+}
+#head .logo :hover{
+    text-decoration: none;
+}
+#head .flex{
+    display: flex;
+}
+#head .recherche{
+    margin-left: 135px;
+}
+#head .recherche input{
+    width: 600px;  
+    margin-top: 20px;
+}
+#head .mini-nav{
+    margin-left: 150px;  
+}
+#head .mini-nav i{
+    color: white;
+    font-size: 35px;    
+    line-height: 80px;   
+}
+
+
+.liste {
+    display: inline-flex;
+}
+
+.liste div:hover{
+    transform: scale(1.3);   
+}
+
+.liste div p {
+    text-align: center;
+    font-weight: 500;
+}
+ 
+
+#Audi{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Audi img{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+
+#BMW{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#BMW img{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+
+#Peugeot{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Peugeot img{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+
+#Volkswagen{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Volkswagen img{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+
+#Renault{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Renault img{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
