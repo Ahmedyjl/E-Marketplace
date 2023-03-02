@@ -18,15 +18,17 @@
 #head .flex{
     display: flex;
 }
+
 #head .recherche{
     margin: auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 54%; 
 }
+
 #head .recherche input{
-    flex: 1;
-    width: 600px;    
+    flex: 1;    
 }   
 
 /* javascript */
@@ -131,5 +133,3 @@ footer .blocServicesFooter{
 .liste li:hover .text {
   display: block;
 }
-
-
