@@ -12,12 +12,24 @@
     color:white;
     line-height: 80px;  
 }
+#head .logoo h3{
+    display:none;
+    color:white;
+    line-height: 80px;  
+}
+
 #head .logo :hover{
     text-decoration: none;
 }
+#head .logoo :hover{
+    text-decoration: none;
+}
+
+
 #head .flex{
     display: flex;
 }
+
 
 #head .recherche{
     margin: auto;
@@ -26,17 +38,13 @@
     justify-content: center;
     width: 54%; 
 }
-
 #head .recherche input{
     flex: 1;    
 }   
-
 /* javascript */
 #head .suggestion:hover{   
     background-color: cornflowerblue; 
 }
-
-
 #head .recherche button{
     background-color: #181918;
     color: white;
@@ -45,13 +53,26 @@
     border-radius: 5px;
     cursor: pointer;
 }
-#head .mini-nav{
-    margin-right: 25px;
-}
+
+
 #head .mini-nav i{
     color: white;
     font-size: 35px;    
     line-height: 80px;   
+}
+#head .mini-nav{
+    margin-right: 25px;
+}
+
+#head .mini-navv i{
+    color: white;
+    font-size: 150%;
+    line-height: 80px;
+    margin-right: 5px;
+}
+#head .mini-navv{
+    display:none;
+    margin-left: 27%;
 }
 
 
@@ -132,4 +153,17 @@ footer .blocServicesFooter{
 }
 .liste li:hover .text {
   display: block;
+}
+
+
+
+
+@media all and (max-width: 1100px) {
+    #head .logo h1 {display:none;}
+    #head .logoo h3 {display:block;}
+    #head .recherche {display:none;}
+    #head .mini-nav{display:none;}
+    #head .mini-navv{display:block;}
+
+
 }
