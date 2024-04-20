@@ -166,7 +166,7 @@ footer .tailleBlocFooter{
     margin-left: 12%;
     margin-top: 35px;
     display: inline-block;
-    text-decoration: red;
+    text-decoration: rgb(0, 0, 0);
 }
 
 footer .tailleBlocFooter a{
