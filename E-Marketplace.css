@@ -6,7 +6,7 @@
 
 #head{
     background-color: rgb(54, 182, 54);
-    height: 80px;
+    height: 90px;
 }
 #head .logo h1{
     color:white;
@@ -27,25 +27,21 @@
 
 
 #head .flex{
-    display: flex;
+    display: inline-flex;
+    align-items: center;
 }
 
 
-#head .recherche{
+#head .recherche  {
     margin: auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 54%; 
+    width: 333%;
+    margin-left: 45%;
 }
-#head .recherche input{
-    flex: 1;    
-}   
-/* javascript */
-#head .suggestion:hover{   
-    background-color: cornflowerblue; 
-}
-#head .recherche button{
+
+#head .recherche  button {
     background-color: #181918;
     color: white;
     border: none;
@@ -55,14 +51,57 @@
 }
 
 
-#head .mini-nav i{
+
+  
+#head .mini-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left : 1085px;
+  }
+
+  #head .mini-nav .user-container {
+    margin-right: 15px;
+
+  }
+
+
+  #head .mini-nav .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    
+  }
+
+  
+  #head .mini-nav .logo-container i {
     color: white;
-    font-size: 35px;    
-    line-height: 80px;   
-}
-#head .mini-nav{
-    margin-right: 25px;
-}
+    font-size: 35px;
+    margin-bottom: 15px;
+    
+  }
+  
+  #head .mini-nav .logo-container p {
+    display: none;
+    background-color: #fff;
+    padding: 2px;
+    color: #000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 73px;
+  }
+  
+  #head .mini-nav .logo-container:hover p {
+    display: block;
+    position: absolute
+  }
+
+
+  
+  
 
 #head .mini-navv i{
     color: white;
@@ -103,17 +142,22 @@
     border: solid 2px;
     box-shadow:0 0 14px rgba(0,0,0,0.3);
 }
+#home .carousel-item{
+    height: 550px
+}
 #home .carousel-item img {
-    max-height: 400px; /* ajuster la hauteur maximale selon vos préférences */   
+    max-height: 100%; /* ajuster la hauteur maximale selon vos préférences */   
 }
 
-
-
 footer{
+    margin-top: 150px;
     background-color: black;
     color: white;
     height: 300px;
-    margin-top: 150px;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 footer .footerEnNoir{
     display: flex;
@@ -122,6 +166,12 @@ footer .tailleBlocFooter{
     margin-left: 12%;
     margin-top: 35px;
     display: inline-block;
+    text-decoration: red;
+}
+
+footer .tailleBlocFooter a{
+    text-decoration: none;
+    color:white;
 }
 
 
